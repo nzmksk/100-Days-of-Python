@@ -1,3 +1,5 @@
+# Create a program that calculates the body mass index (BMI) for adults.
+
 def bmi(w, h):
     bmi_score = w / (h ** 2)
     if bmi_score <= 18.5:
