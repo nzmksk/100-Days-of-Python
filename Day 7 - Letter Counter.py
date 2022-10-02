@@ -11,6 +11,5 @@ def letter_counter(text):
     return f'Letter count: {count}'
 
 
-# Lowercase all letters
 text = input("Insert your text here: ")
 print(letter_counter(text))
