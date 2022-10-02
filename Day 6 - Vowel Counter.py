@@ -7,4 +7,8 @@ def vowel_count(text):
     for i in lowercase_text:
         if i in vowels:
             vowel_count += 1
-    return f'Total vowels: {vowel_count}'
+    return f'Vowel count: {vowel_count}'
+
+
+text = input("Insert your text here: ")
+print(vowel_count(text))
