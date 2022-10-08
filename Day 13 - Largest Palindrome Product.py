@@ -16,3 +16,6 @@ def largest_palindrome(n):
                     largest_palindrome = product
 
     return largest_palindrome
+
+# Current algorithm is tediously slow starting n = 4.
+# Definitely there's a room for improvement to make the algorithm faster.
